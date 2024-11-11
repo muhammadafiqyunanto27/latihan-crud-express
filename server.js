@@ -15,7 +15,7 @@ const booksRoute = require('./routes/books');
 app.use('/api/products', productsRoute);   // Path untuk products
 app.use('/api/users', usersRoute);         // Path untuk users
 app.use('/api/orders', ordersRoute);       // Path untuk orders
-app.use('/employees', employeesRoute); // Path untuk employees
+app.use('/api/employees', employeesRoute); // Path untuk employees
 app.use('/api/books', booksRoute);         // Path untuk books
 
 // Jalankan server
